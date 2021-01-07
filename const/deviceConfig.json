@@ -1,0 +1,2719 @@
+{
+    "id": "deviceConfig",
+    "通信設定": [
+        {
+            "modelName": "GW-404",
+            "isRs232c": false,
+            "isRs485": true,
+            "通信モード": [
+                {
+                    "value": 0,
+                    "text": "Modbus RTU（マスタ）",
+                    "can局番": true,
+                    "局番初期値": 1,
+                    "support局番": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "ボーレート": [
+                        {
+                            "text": "9600 bps",
+                            "value": 0
+                        },
+                        {
+                            "text": "19200 bps",
+                            "value": 1
+                        },
+                        {
+                            "text": "38400 bps",
+                            "value": 2
+                        },
+                        {
+                            "text": "57600 bps",
+                            "value": 3
+                        },
+                        {
+                            "text": "115200 bps",
+                            "value": 4
+                        },
+                        {
+                            "text": "230400 bps",
+                            "value": 5
+                        }
+                    ],
+                    "ボーレート初期値": 4,
+                    "スタートビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "スタートビット初期値": 1,
+                    "データレングス": [
+                        {
+                            "text": "8 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "データレングス初期値": 1,
+                    "ストップビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        },
+                        {
+                            "text": "2 ビット",
+                            "value": 2
+                        }
+                    ],
+                    "ストップビット初期値": 1,
+                    "パリティ": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "偶数",
+                            "value": 1
+                        },
+                        {
+                            "text": "奇数",
+                            "value": 2
+                        }
+                    ],
+                    "パリティ初期値": 1,
+                    "チェックサム": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "チェックサム初期値": 0,
+                    "crlf": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "crlf初期値": 0,
+                    "フロー制御": [
+                        {
+                            "text": "フロー制御なし",
+                            "value": 0
+                        }
+                    ],
+                    "フロー制御初期値": 0,
+                    "canControlMemory": true,
+                    "canTrigger": true,
+                    "disableEdgeComSettings":false
+                },
+                {
+                    "value": 10,
+                    "text": "TOSVERT VFシリーズ",
+                    "can局番": true,
+                    "局番初期値": 1,
+                    "support局番": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "ボーレート": [
+                        {
+                            "text": "9600 bps",
+                            "value": 0
+                        },
+                        {
+                            "text": "19200 bps",
+                            "value": 1
+                        },
+                        {
+                            "text": "38400 bps",
+                            "value": 2
+                        }
+                    ],
+                    "ボーレート初期値": 1,
+                    "スタートビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "スタートビット初期値": 1,
+                    "データレングス": [
+                        {
+                            "text": "8 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "データレングス初期値": 1,
+                    "ストップビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "ストップビット初期値": 1,
+                    "パリティ": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "偶数",
+                            "value": 1
+                        },
+                        {
+                            "text": "奇数",
+                            "value": 2
+                        }
+                    ],
+                    "パリティ初期値": 1,
+                    "チェックサム": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "あり",
+                            "value": 1
+                        }
+                    ],
+                    "チェックサム初期値": 1,
+                    "crlf": [
+                        {
+                            "text": "CRあり",
+                            "value": 1
+                        }
+                    ],
+                    "crlf初期値": 1,
+                    "フロー制御": [
+                        {
+                            "text": "フロー制御なし",
+                            "value": 0
+                        }
+                    ],
+                    "フロー制御初期値": 0,
+                    "canControlMemory": false,
+                    "canTrigger": true,
+                    "disableEdgeComSettings":false
+                },
+                {
+                    "value": 12,
+                    "text": "NM専用(エッジ通信無し)",
+                    "can局番": false,
+                    "局番初期値": 255,
+                    "support局番": [
+                        255
+                    ],
+                    "ボーレート": [
+                        {
+                            "text": "9600 bps",
+                            "value": 0
+                        }
+                    ],
+                    "ボーレート初期値": 0,
+                    "スタートビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "スタートビット初期値": 1,
+                    "データレングス": [
+                        {
+                            "text": "8 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "データレングス初期値": 1,
+                    "ストップビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "ストップビット初期値": 1,
+                    "パリティ": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "パリティ初期値": 0,
+                    "チェックサム": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "チェックサム初期値": 0,
+                    "crlf": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "crlf初期値": 0,
+                    "フロー制御": [
+                        {
+                            "text": "フロー制御なし",
+                            "value": 0
+                        }
+                    ],
+                    "フロー制御初期値": 0,
+                    "canControlMemory": false,
+                    "canTrigger": true,
+                    "disableEdgeComSettings":true
+                }
+            ]
+        },
+        {
+            "modelName": "GW-402",
+            "isRs232c": true,
+            "isRs485": false,
+            "通信モード": [
+                {
+                    "value": 1,
+                    "text": "FX3G/U（計算機リンク）",
+                    "can局番": true,
+                    "局番初期値": 0,
+                    "support局番": [
+                        0
+                    ],
+                    "ボーレート": [
+                        {
+                            "text": "9600 bps",
+                            "value": 0
+                        },
+                        {
+                            "text": "19200 bps",
+                            "value": 1
+                        },
+                        {
+                            "text": "38400 bps",
+                            "value": 2
+                        }
+                    ],
+                    "ボーレート初期値": 0,
+                    "スタートビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "スタートビット初期値": 1,
+                    "データレングス": [
+                        {
+                            "text": "7 ビット",
+                            "value": 0
+                        },
+                        {
+                            "text": "8 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "データレングス初期値": 0,
+                    "ストップビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        },
+                        {
+                            "text": "2 ビット",
+                            "value": 2
+                        }
+                    ],
+                    "ストップビット初期値": 1,
+                    "パリティ": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "偶数",
+                            "value": 1
+                        },
+                        {
+                            "text": "奇数",
+                            "value": 2
+                        }
+                    ],
+                    "パリティ初期値": 2,
+                    "チェックサム": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "あり",
+                            "value": 1
+                        }
+                    ],
+                    "チェックサム初期値": 0,
+                    "crlf": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "CR/LFあり",
+                            "value": 3
+                        }
+                    ],
+                    "crlf初期値": 0,
+                    "フロー制御": [
+                        {
+                            "text": "フロー制御なし",
+                            "value": 0
+                        }
+                    ],
+                    "フロー制御初期値": 0,
+                    "canControlMemory": true,
+                    "canTrigger": true,
+                    "disableEdgeComSettings":false
+                },
+                {
+                    "value": 2,
+                    "text": "MELSEC-Qシリーズ（計算機リンク）",
+                    "can局番": true,
+                    "局番初期値": 0,
+                    "support局番": [
+                        0
+                    ],
+                    "ボーレート": [
+                        {
+                            "text": "9600 bps",
+                            "value": 0
+                        },
+                        {
+                            "text": "19200 bps",
+                            "value": 1
+                        },
+                        {
+                            "text": "38400 bps",
+                            "value": 2
+                        },
+                        {
+                            "text": "57600 bps",
+                            "value": 3
+                        },
+                        {
+                            "text": "115200 bps",
+                            "value": 4
+                        }
+                    ],
+                    "ボーレート初期値": 1,
+                    "スタートビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "スタートビット初期値": 1,
+                    "データレングス": [
+                        {
+                            "text": "8 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "データレングス初期値": 1,
+                    "ストップビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        },
+                        {
+                            "text": "2 ビット",
+                            "value": 2
+                        }
+                    ],
+                    "ストップビット初期値": 1,
+                    "パリティ": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "偶数",
+                            "value": 1
+                        },
+                        {
+                            "text": "奇数",
+                            "value": 2
+                        }
+                    ],
+                    "パリティ初期値": 2,
+                    "チェックサム": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "あり",
+                            "value": 1
+                        }
+                    ],
+                    "チェックサム初期値": 0,
+                    "crlf": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "crlf初期値": 0,
+                    "フロー制御": [
+                        {
+                            "text": "RTS/CTS制御あり",
+                            "value": 1
+                        }
+                    ],
+                    "フロー制御初期値": 1,
+                    "canControlMemory": true,
+                    "canTrigger": true,
+                    "disableEdgeComSettings":false
+                },
+                {
+                    "value": 5,
+                    "text": "KVシリーズ（上位リンク）",
+                    "can局番": false,
+                    "局番初期値": 255,
+                    "support局番": [
+                        255
+                    ],
+                    "ボーレート": [
+                        {
+                            "text": "9600 bps",
+                            "value": 0
+                        },
+                        {
+                            "text": "19200 bps",
+                            "value": 1
+                        },
+                        {
+                            "text": "38400 bps",
+                            "value": 2
+                        },
+                        {
+                            "text": "57600 bps",
+                            "value": 3
+                        },
+                        {
+                            "text": "115200 bps",
+                            "value": 4
+                        }
+                    ],
+                    "ボーレート初期値": 0,
+                    "スタートビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "スタートビット初期値": 1,
+                    "データレングス": [
+                        {
+                            "text": "8 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "データレングス初期値": 1,
+                    "ストップビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "ストップビット初期値": 1,
+                    "パリティ": [
+                        {
+                            "text": "偶数",
+                            "value": 1
+                        }
+                    ],
+                    "パリティ初期値": 1,
+                    "チェックサム": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "チェックサム初期値": 0,
+                    "crlf": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "crlf初期値": 0,
+                    "フロー制御": [
+                        {
+                            "text": "フロー制御なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "RTS/CTS制御あり",
+                            "value": 1
+                        }
+                    ],
+                    "フロー制御初期値": 0,
+                    "canControlMemory": true,
+                    "canTrigger": true,
+                    "disableEdgeComSettings":false
+                },
+                {
+                    "value": 6,
+                    "text": "TCmini",
+                    "can局番": false,
+                    "局番初期値": 255,
+                    "support局番": [
+                        255
+                    ],
+                    "ボーレート": [
+                        {
+                            "text": "9600 bps",
+                            "value": 0
+                        },
+                        {
+                            "text": "19200 bps",
+                            "value": 1
+                        },
+                        {
+                            "text": "38400 bps",
+                            "value": 2
+                        },
+                        {
+                            "text": "57600 bps",
+                            "value": 3
+                        },
+                        {
+                            "text": "115200 bps",
+                            "value": 4
+                        }
+                    ],
+                    "ボーレート初期値": 0,
+                    "スタートビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "スタートビット初期値": 1,
+                    "データレングス": [
+                        {
+                            "text": "8 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "データレングス初期値": 1,
+                    "ストップビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        },
+                        {
+                            "text": "2 ビット",
+                            "value": 2
+                        }
+                    ],
+                    "ストップビット初期値": 2,
+                    "パリティ": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "偶数",
+                            "value": 1
+                        },
+                        {
+                            "text": "奇数",
+                            "value": 2
+                        }
+                    ],
+                    "パリティ初期値": 0,
+                    "チェックサム": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "チェックサム初期値": 0,
+                    "crlf": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "crlf初期値": 0,
+                    "フロー制御": [
+                        {
+                            "text": "RTS/CTS制御あり",
+                            "value": 1
+                        }
+                    ],
+                    "フロー制御初期値": 1,
+                    "canControlMemory": true,
+                    "canTrigger": true,
+                    "disableEdgeComSettings":false
+                },
+                {
+                    "value": 7,
+                    "text": "SYSMAC CJ/CPシリーズ（上位リンク）",
+                    "can局番": true,
+                    "局番初期値": 0,
+                    "support局番": [
+                        0
+                    ],
+                    "ボーレート": [
+                        {
+                            "text": "9600 bps",
+                            "value": 0
+                        },
+                        {
+                            "text": "19200 bps",
+                            "value": 1
+                        },
+                        {
+                            "text": "38400 bps",
+                            "value": 2
+                        },
+                        {
+                            "text": "57600 bps",
+                            "value": 3
+                        },
+                        {
+                            "text": "115200 bps",
+                            "value": 4
+                        }
+                    ],
+                    "ボーレート初期値": 0,
+                    "スタートビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "スタートビット初期値": 1,
+                    "データレングス": [
+                        {
+                            "text": "7 ビット",
+                            "value": 0
+                        },
+                        {
+                            "text": "8 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "データレングス初期値": 0,
+                    "ストップビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        },
+                        {
+                            "text": "2 ビット",
+                            "value": 2
+                        }
+                    ],
+                    "ストップビット初期値": 2,
+                    "パリティ": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "偶数",
+                            "value": 1
+                        },
+                        {
+                            "text": "奇数",
+                            "value": 2
+                        }
+                    ],
+                    "パリティ初期値": 1,
+                    "チェックサム": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "チェックサム初期値": 0,
+                    "crlf": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "crlf初期値": 0,
+                    "フロー制御": [
+                        {
+                            "text": "フロー制御無",
+                            "value": 0
+                        }
+                    ],
+                    "フロー制御初期値": 0,
+                    "canControlMemory": true,
+                    "canTrigger": true,
+                    "disableEdgeComSettings":false
+                },
+                {
+                    "value": 8,
+                    "text": "FPシリーズ（MEWTOCOL-COM）",
+                    "can局番": true,
+                    "局番初期値": 1,
+                    "support局番": [
+                        1
+                    ],
+                    "ボーレート": [
+                        {
+                            "text": "9600 bps",
+                            "value": 0
+                        },
+                        {
+                            "text": "19200 bps",
+                            "value": 1
+                        },
+                        {
+                            "text": "38400 bps",
+                            "value": 2
+                        },
+                        {
+                            "text": "57600 bps",
+                            "value": 3
+                        },
+                        {
+                            "text": "115200 bps",
+                            "value": 4
+                        }
+                    ],
+                    "ボーレート初期値": 1,
+                    "スタートビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "スタートビット初期値": 1,
+                    "データレングス": [
+                        {
+                            "text": "7 ビット",
+                            "value": 0
+                        },
+                        {
+                            "text": "8 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "データレングス初期値": 1,
+                    "ストップビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        },
+                        {
+                            "text": "2 ビット",
+                            "value": 2
+                        }
+                    ],
+                    "ストップビット初期値": 1,
+                    "パリティ": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        },
+                        {
+                            "text": "偶数",
+                            "value": 1
+                        },
+                        {
+                            "text": "奇数",
+                            "value": 2
+                        }
+                    ],
+                    "パリティ初期値": 2,
+                    "チェックサム": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "チェックサム初期値": 0,
+                    "crlf": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "crlf初期値": 0,
+                    "フロー制御": [
+                        {
+                            "text": "フロー制御無",
+                            "value": 0
+                        }
+                    ],
+                    "フロー制御初期値": 0,
+                    "canControlMemory": true,
+                    "canTrigger": true,
+                    "disableEdgeComSettings":false
+                },
+                {
+                    "value": 12,
+                    "text": "NM専用(エッジ通信無し)",
+                    "can局番": false,
+                    "局番初期値": 255,
+                    "support局番": [
+                        255
+                    ],
+                    "ボーレート": [
+                        {
+                            "text": "9600 bps",
+                            "value": 0
+                        }
+                    ],
+                    "ボーレート初期値": 0,
+                    "スタートビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "スタートビット初期値": 1,
+                    "データレングス": [
+                        {
+                            "text": "8 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "データレングス初期値": 1,
+                    "ストップビット": [
+                        {
+                            "text": "1 ビット",
+                            "value": 1
+                        }
+                    ],
+                    "ストップビット初期値": 1,
+                    "パリティ": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "パリティ初期値": 0,
+                    "チェックサム": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "チェックサム初期値": 0,
+                    "crlf": [
+                        {
+                            "text": "なし",
+                            "value": 0
+                        }
+                    ],
+                    "crlf初期値": 0,
+                    "フロー制御": [
+                        {
+                            "text": "フロー制御なし",
+                            "value": 0
+                        }
+                    ],
+                    "フロー制御初期値": 0,
+                    "canControlMemory": false,
+                    "canTrigger": true,
+                    "disableEdgeComSettings":true
+                }
+            ]
+        }
+    ],
+    "コントロールメモリ": [
+        {
+            "id": 0,
+            "通信モードId": 0,
+            "controlMemory": [
+                {
+                    "text": "保持レジスタ",
+                    "deviceType": "H",
+                    "deviceKind": 512
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "通信モードId": 1,
+            "controlMemory": [
+                {
+                    "text": "データレジスタ",
+                    "deviceType": "D",
+                    "deviceKind": 512
+                },
+                {
+                    "text": "拡張レジスタ",
+                    "deviceType": "R",
+                    "deviceKind": 514
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "通信モードId": 2,
+            "controlMemory": [
+                {
+                    "text": "データレジスタ",
+                    "deviceType": "D",
+                    "deviceKind": 512
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "通信モードId": 5,
+            "controlMemory": [
+                {
+                    "text": "データメモリ",
+                    "deviceType": "DM",
+                    "deviceKind": 512
+                },
+                {
+                    "text": "拡張データメモリ",
+                    "deviceType": "EM",
+                    "deviceKind": 513
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "通信モードId": 6,
+            "controlMemory": [
+                {
+                    "text": "データレジスタ",
+                    "deviceType": "D",
+                    "deviceKind": 512
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "通信モードId": 7,
+            "controlMemory": [
+                {
+                    "text": "データメモリ",
+                    "deviceType": "D",
+                    "deviceKind": 512
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "通信モードId": 8,
+            "controlMemory": [
+                {
+                    "text": "データレジスタ",
+                    "deviceType": "DT",
+                    "deviceKind": 512
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "通信モードId": 10,
+            "controlMemory": [
+                {
+                    "text": "パラメータ",
+                    "deviceType": "PRM",
+                    "deviceKind": 512
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "通信モードId": 12,
+            "controlMemory": [
+                {
+                    "text": "内部メモリ",
+                    "deviceType": "[NM]",
+                    "deviceKind": 32768
+                }
+            ]
+        }
+    ],
+    "トリガー": [
+        {
+            "id": 0,
+            "通信モードId": 0,
+            "trigger": [
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "コイル",
+                    "deviceKind": 0,
+                    "deviceType": "COIL",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "入力ステータス",
+                    "deviceKind": 1,
+                    "deviceType": "IS",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ],
+                    "text": "保持レジスタ",
+                    "deviceKind": 512,
+                    "deviceType": "H",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ],
+                    "text": "入力レジスタ",
+                    "deviceKind": 513,
+                    "deviceType": "I",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部メモリ",
+                    "deviceKind": 32768,
+                    "deviceType": "[NM]",
+					"disableRegisterAddress": false
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "通信モードId": 1,
+            "trigger": [
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "入力リレー",
+                    "deviceKind": 0,
+                    "deviceType": "X",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "出力リレー",
+                    "deviceKind": 1,
+                    "deviceType": "Y",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "内部リレー",
+                    "deviceKind": 2,
+                    "deviceType": "M",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "特殊内部リレー",
+                    "deviceKind": 3,
+                    "deviceType": "M",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "ステートリレー",
+                    "deviceKind": 4,
+                    "deviceType": "S",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "タイマ(接点)",
+                    "deviceKind": 5,
+                    "deviceType": "TS",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "カウンタ(接点)",
+                    "deviceKind": 6,
+                    "deviceType": "CS",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "入力リレー(ワード扱い)",
+                    "deviceKind": 4096,
+                    "deviceType": "X",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "出力リレー(ワード扱い)",
+                    "deviceKind": 4097,
+                    "deviceType": "Y",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部リレー(ワード扱い)",
+                    "deviceKind": 4098,
+                    "deviceType": "M",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "特殊内部リレー(ワード扱い)",
+                    "deviceKind": 4099,
+                    "deviceType": "M",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "ステートリレー(ワード扱い)",
+                    "deviceKind": 4100,
+                    "deviceType": "S",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "データレジスタ",
+                    "deviceKind": 512,
+                    "deviceType": "D",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "特殊データレジスタ",
+                    "deviceKind": 513,
+                    "deviceType": "D",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "拡張レジスタ",
+                    "deviceKind": 514,
+                    "deviceType": "R",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "タイマ(現在値)",
+                    "deviceKind": 515,
+                    "deviceType": "TN",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部メモリ",
+                    "deviceKind": 32768,
+                    "deviceType": "[NM]",
+					"disableRegisterAddress": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "通信モードId": 2,
+            "trigger": [
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "入力リレー",
+                    "deviceKind": 0,
+                    "deviceType": "X",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "出力リレー",
+                    "deviceKind": 1,
+                    "deviceType": "Y",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "内部リレー",
+                    "deviceKind": 2,
+                    "deviceType": "M",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "特殊リレー",
+                    "deviceKind": 3,
+                    "deviceType": "SM",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "ラッチリレー",
+                    "deviceKind": 4,
+                    "deviceType": "L",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "リンクリレー",
+                    "deviceKind": 5,
+                    "deviceType": "B",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "アナンシェータ",
+                    "deviceKind": 6,
+                    "deviceType": "F",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "リンク特殊リレー",
+                    "deviceKind": 7,
+                    "deviceType": "SB",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "エッジリレー",
+                    "deviceKind": 8,
+                    "deviceType": "V",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "タイマ(接点)",
+                    "deviceKind": 9,
+                    "deviceType": "TS",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "タイマ(コイル)",
+                    "deviceKind": 10,
+                    "deviceType": "TC",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "積算タイマ(接点)",
+                    "deviceKind": 11,
+                    "deviceType": "STS",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "積算タイマ(コイル)",
+                    "deviceKind": 12,
+                    "deviceType": "STC",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "カウンタ(接点)",
+                    "deviceKind": 13,
+                    "deviceType": "CS",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "カウンタ(コイル)",
+                    "deviceKind": 14,
+                    "deviceType": "CC",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "入力リレー(ワード扱い)",
+                    "deviceKind": 4096,
+                    "deviceType": "X",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "出力リレー(ワード扱い)",
+                    "deviceKind": 4097,
+                    "deviceType": "Y",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部リレー(ワード扱い)",
+                    "deviceKind": 4098,
+                    "deviceType": "M",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "特殊リレー(ワード扱い)",
+                    "deviceKind": 4099,
+                    "deviceType": "SM",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "ラッチリレー(ワード扱い)",
+                    "deviceKind": 4100,
+                    "deviceType": "L",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "リンクリレー(ワード扱い)",
+                    "deviceKind": 4101,
+                    "deviceType": "B",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "アナンシェータ(ワード扱い)",
+                    "deviceKind": 4102,
+                    "deviceType": "F",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "リンク特殊リレー(ワード扱い)",
+                    "deviceKind": 4103,
+                    "deviceType": "SB",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "エッジリレー(ワード扱い)",
+                    "deviceKind": 4104,
+                    "deviceType": "V",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "データレジスタ",
+                    "deviceKind": 512,
+                    "deviceType": "D",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "特殊レジスタ",
+                    "deviceKind": 513,
+                    "deviceType": "SD",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "リンクレジスタ",
+                    "deviceKind": 514,
+                    "deviceType": "W",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "リンク特殊レジスタ",
+                    "deviceKind": 515,
+                    "deviceType": "SW",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "タイマ(現在値)",
+                    "deviceKind": 516,
+                    "deviceType": "TN",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "積算タイマ(現在値)",
+                    "deviceKind": 517,
+                    "deviceType": "STN",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "カウンタ(現在値)",
+                    "deviceKind": 518,
+                    "deviceType": "CN",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "インデックスレジスタ",
+                    "deviceKind": 519,
+                    "deviceType": "Z",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "ファイルレジスタ(ブロック切替方式)",
+                    "deviceKind": 520,
+                    "deviceType": "R",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "ファイルレジスタ(連番アクセス方式)",
+                    "deviceKind": 521,
+                    "deviceType": "ZR",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部メモリ",
+                    "deviceKind": 32768,
+                    "deviceType": "[NM]",
+					"disableRegisterAddress": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "通信モードId": 5,
+            "trigger": [
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "リレー",
+                    "deviceKind": 0,
+                    "deviceType": "R",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "内部補助リレー",
+                    "deviceKind": 1,
+                    "deviceType": "MR",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "ラッチリレー",
+                    "deviceKind": 2,
+                    "deviceType": "LR",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "コントロールリレー",
+                    "deviceKind": 3,
+                    "deviceType": "CR",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "リンクリレー",
+                    "deviceKind": 4,
+                    "deviceType": "B",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "ワークリレー",
+                    "deviceKind": 5,
+                    "deviceType": "VB",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "タイマ(接点)",
+                    "deviceKind": 6,
+                    "deviceType": "T",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "カウンタ(接点)",
+                    "deviceKind": 7,
+                    "deviceType": "C",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "リレー(ワード扱い)",
+                    "deviceKind": 4096,
+                    "deviceType": "R",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部補助リレー(ワード扱い)",
+                    "deviceKind": 4097,
+                    "deviceType": "MR",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "ラッチリレー(ワード扱い)",
+                    "deviceKind": 4098,
+                    "deviceType": "LR",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "コントロールリレー(ワード扱い)",
+                    "deviceKind": 4099,
+                    "deviceType": "CR",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "リンクリレー(ワード扱い)",
+                    "deviceKind": 4100,
+                    "deviceType": "B",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "ワークリレー(ワード扱い)",
+                    "deviceKind": 4101,
+                    "deviceType": "VB",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "データメモリ",
+                    "deviceKind": 512,
+                    "deviceType": "DM",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "拡張データメモリ",
+                    "deviceKind": 513,
+                    "deviceType": "EM",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "ファイルレジスタ",
+                    "deviceKind": 514,
+                    "deviceType": "FM",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "コントロールメモリ",
+                    "deviceKind": 515,
+                    "deviceType": "CM",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "テンポラリデータメモリ",
+                    "deviceKind": 516,
+                    "deviceType": "TM",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "インデックスレジスタ",
+                    "deviceKind": 517,
+                    "deviceType": "Z",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "ファイルレジスタ（連番方式）",
+                    "deviceKind": 518,
+                    "deviceType": "ZF",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "リンクレジスタ",
+                    "deviceKind": 519,
+                    "deviceType": "W",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "ワークメモリ",
+                    "deviceKind": 520,
+                    "deviceType": "VM",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        3,
+                        4
+                    ],
+                    "text": "タイマ（設定値）",
+                    "deviceKind": 521,
+                    "deviceType": "TS",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        3,
+                        4
+                    ],
+                    "text": "タイマ（現在値）",
+                    "deviceKind": 522,
+                    "deviceType": "TC",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        3,
+                        4
+                    ],
+                    "text": "カウンタ（設定値）",
+                    "deviceKind": 523,
+                    "deviceType": "CS",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        3,
+                        4
+                    ],
+                    "text": "カウンタ（現在値）",
+                    "deviceKind": 524,
+                    "deviceType": "CC",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部メモリ",
+                    "deviceKind": 32768,
+                    "deviceType": "[NM]",
+					"disableRegisterAddress": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "通信モードId": 6,
+            "trigger": [
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "外部入力リレー",
+                    "deviceKind": 0,
+                    "deviceType": "X",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "外部出力リレー",
+                    "deviceKind": 1,
+                    "deviceType": "Y",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "内部リレー",
+                    "deviceKind": 2,
+                    "deviceType": "R",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "エッジリレー",
+                    "deviceKind": 3,
+                    "deviceType": "E",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "ラッチリレー",
+                    "deviceKind": 4,
+                    "deviceType": "L",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "タイマリレー",
+                    "deviceKind": 5,
+                    "deviceType": "T",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "カウンタリレー",
+                    "deviceKind": 6,
+                    "deviceType": "C",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "特殊補助リレー",
+                    "deviceKind": 7,
+                    "deviceType": "A",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "外部入力リレー(ワード扱い)",
+                    "deviceKind": 4096,
+                    "deviceType": "XW",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "外部出力リレー(ワード扱い)",
+                    "deviceKind": 4097,
+                    "deviceType": "YW",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部リレー(ワード扱い)",
+                    "deviceKind": 4098,
+                    "deviceType": "RW",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "エッジリレー(ワード扱い)",
+                    "deviceKind": 4099,
+                    "deviceType": "EW",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "ラッチリレー(ワード扱い)",
+                    "deviceKind": 4100,
+                    "deviceType": "LW",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "タイマリレー(ワード扱い)",
+                    "deviceKind": 4101,
+                    "deviceType": "TW",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "カウンタリレー(ワード扱い)",
+                    "deviceKind": 4102,
+                    "deviceType": "CW",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "特殊補助リレー(ワード扱い)",
+                    "deviceKind": 4103,
+                    "deviceType": "AW",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "データレジスタ",
+                    "deviceKind": 512,
+                    "deviceType": "D",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "T/C レジスタ 1",
+                    "deviceKind": 513,
+                    "deviceType": "P",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "T/C レジスタ 2",
+                    "deviceKind": 514,
+                    "deviceType": "V",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部メモリ",
+                    "deviceKind": 32768,
+                    "deviceType": "[NM]",
+					"disableRegisterAddress": false
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "通信モードId": 7,
+            "trigger": [
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "チャネルI/O",
+                    "deviceKind": 0,
+                    "deviceType": "CIO",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "内部補助リレー",
+                    "deviceKind": 1,
+                    "deviceType": "W",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "保持リレー",
+                    "deviceKind": 2,
+                    "deviceType": "H",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "特殊補助リレー",
+                    "deviceKind": 3,
+                    "deviceType": "A",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "チャネルI/O(CH扱い)",
+                    "deviceKind": 4096,
+                    "deviceType": "CIO",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部補助リレー(CH扱い)",
+                    "deviceKind": 4097,
+                    "deviceType": "W",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "保持リレー(CH扱い)",
+                    "deviceKind": 4098,
+                    "deviceType": "H",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "特殊補助リレー(CH扱い)",
+                    "deviceKind": 4099,
+                    "deviceType": "A",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "データメモリ",
+                    "deviceKind": 512,
+                    "deviceType": "D",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "拡張データメモリ(カレント)",
+                    "deviceKind": 513,
+                    "deviceType": "E",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部メモリ",
+                    "deviceKind": 32768,
+                    "deviceType": "[NM]",
+					"disableRegisterAddress": false
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "通信モードId": 8,
+            "trigger": [
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "入力リレー",
+                    "deviceKind": 0,
+                    "deviceType": "X",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "出力リレー",
+                    "deviceKind": 1,
+                    "deviceType": "Y",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "内部リレー",
+                    "deviceKind": 2,
+                    "deviceType": "R",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "リンクリレー",
+                    "deviceKind": 3,
+                    "deviceType": "L",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "タイマ(接点)",
+                    "deviceKind": 5,
+                    "deviceType": "T",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        0
+                    ],
+                    "text": "カウンタ(接点)",
+                    "deviceKind": 6,
+                    "deviceType": "C",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "入力リレー(ワード扱い)",
+                    "deviceKind": 4096,
+                    "deviceType": "WX",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "出力リレー(ワード扱い)",
+                    "deviceKind": 4097,
+                    "deviceType": "WY",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部リレー(ワード扱い)",
+                    "deviceKind": 4098,
+                    "deviceType": "WR",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "リンクリレー(ワード扱い)",
+                    "deviceKind": 4099,
+                    "deviceType": "WL",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "データレジスタ",
+                    "deviceKind": 512,
+                    "deviceType": "DT",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "リンクレジスタ",
+                    "deviceKind": 514,
+                    "deviceType": "LD",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "タイマ/カウンタ(設定値)",
+                    "deviceKind": 516,
+                    "deviceType": "SV",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "タイマ/カウンタ(経過値)",
+                    "deviceKind": 517,
+                    "deviceType": "EV",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部メモリ",
+                    "deviceKind": 32768,
+                    "deviceType": "[NM]",
+					"disableRegisterAddress": false
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "通信モードId": 10,
+            "trigger": [
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "パラメータ",
+                    "deviceKind": 512,
+                    "deviceType": "PRM",
+					"disableRegisterAddress": false
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "インバータ容量コード",
+                    "deviceKind": 513,
+                    "deviceType": "FB05",
+					"disableRegisterAddress": true
+                },
+
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "インバータ機種コード",
+                    "deviceKind": 514,
+                    "deviceType": "FB07",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "トリップコード",
+                    "deviceKind": 515,
+                    "deviceType": "FC90",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "アラーム情報1",
+                    "deviceKind": 516,
+                    "deviceType": "FC91",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "アラーム情報2",
+                    "deviceKind": 517,
+                    "deviceType": "FC92",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "出力周波数",
+                    "deviceKind": 518,
+                    "deviceType": "FD00",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "インバータステータス1",
+                    "deviceKind": 519,
+                    "deviceType": "FD01",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "入力端子台モニタ",
+                    "deviceKind": 520,
+                    "deviceType": "FD06",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "出力端子台モニタ",
+                    "deviceKind": 521,
+                    "deviceType": "FD07",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "過去のトリップ1(最新)",
+                    "deviceKind": 522,
+                    "deviceType": "FE10",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "過去のトリップ2",
+                    "deviceKind": 523,
+                    "deviceType": "FE11",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "過去のトリップ3",
+                    "deviceKind": 524,
+                    "deviceType": "FE12",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "過去のトリップ4",
+                    "deviceKind": 525,
+                    "deviceType": "FE13",
+					"disableRegisterAddress": true
+                },
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部メモリ",
+                    "deviceKind": 32768,
+                    "deviceType": "[NM]",
+					"disableRegisterAddress": false
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "通信モードId": 12,
+            "trigger": [
+                {
+                    "dataType": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "text": "内部メモリ",
+                    "deviceKind": 32768,
+                    "deviceType": "[NM]",
+					"disableRegisterAddress": false
+                }
+            ]
+        }
+    ]
+}

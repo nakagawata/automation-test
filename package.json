@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "jest --json --outputFile=expects.json",
+    "test-systemSetting": "jest ./__tests__/gateway/systemSetting.js --json --outputFile=result/systemSetting-result.json",
+    "test-communication-FX": "jest ./__tests__/gateway/communication/FX.js --json --outputFile=result/communication-FX-result.json"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "jest": "^24.8.0",
+    "jest-image-snapshot": "^4.2.0",
+    "prettier": "^1.18.2",
+    "puppeteer": "^1.17.0",
+    "rimraf": "^2.6.3"
+  },
+  "jest": {
+    "setupFiles": [
+      "dotenv/config"
+    ]
+  },
+  "dependencies": {
+    "constants": "^0.0.2"
+  }
+}

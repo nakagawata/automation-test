@@ -1,0 +1,74 @@
+{
+  "communicationMode": {
+    "text": "FX3G/U（計算機リンク）",
+    "value": 1,
+    "EnumList": [
+      "FX3G/U（計算機リンク）",
+      "MELSEC-Qシリーズ（計算機リンク）",
+      "KVシリーズ（上位リンク）",
+      "TCmini",
+      "SYSMAC CJ/CPシリーズ（上位リンク）",
+      "FPシリーズ（MEWTOCOL-COM）",
+      "NM専用(エッジ通信無し)"
+    ]
+  },
+  "baudrate": {
+    "text": "19200 bps",
+    "value": 1,
+    "EnumList": ["9600 bps", "19200 bps", "38400 bps"]
+  },
+  "startBit": {
+    "text": "1 ビット",
+    "value": 1,
+    "EnumList": ["1 ビット"]
+  },
+  "datalength": {
+    "text": "8 ビット",
+    "value": 1,
+    "EnumList": ["7 ビット", "8 ビット"]
+  },
+  "stopBit": {
+    "text": "1 ビット",
+    "value": 1,
+    "EnumList": ["1 ビット", "2 ビット"]
+  },
+  "parity": {
+    "text": "なし",
+    "value": 0,
+    "EnumList": ["なし", "偶数", "奇数"]
+  },
+  "checksum": {
+    "text": "あり",
+    "value": 1,
+    "EnumList": ["なし", "あり"]
+  },
+  "crlf": {
+    "text": "CR/LFあり",
+    "value": 3,
+    "EnumList": ["なし", "CR/LFあり"]
+  },
+  "flow": {
+    "text": "フロー制御なし",
+    "value": 0,
+    "EnumList": ["フロー制御なし"]
+  },
+  "validation": {
+    "datalengthSevenAutoSelectParityEven": {
+      "datalength": {
+        "text":"7 ビット",
+        "value": 0
+      },
+      "activeParity":{
+        "text":"偶数",
+        "value": 1
+      }
+    },
+    "datalengthSevenSelectItemValue": {
+      "datalength": {
+        "text":"7 ビット",
+        "value": 0
+      },
+      "parityArray": ["偶数", "奇数"]
+    }
+  }
+}
